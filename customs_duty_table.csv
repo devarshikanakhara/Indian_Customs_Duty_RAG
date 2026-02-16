@@ -1,0 +1,9 @@
+Category,Type of Duty,Rate %,Price (Rs.),Calculation
+A,Price of an article,,100 Rs.,
+B,Basic Duty of Customs,30%,30 Rs.,A × 30/100
+C,Social Welfare Surcharge,10%,3 Rs.,B × 10/100
+D,Anti-dumping duty,0%,0 Rs.,A × 0/100
+E,IGST,18%,23.94 Rs.,(A + B + C + D) × 18/100
+F,Compensation Cess,0%,0 Rs.,(A + B + C + D + E) × 0/100
+G,Total applicable duty,,56.95 Rs.,Total of B + C + D + E + F
+H,Total value,,156.94 Rs.,A + G
